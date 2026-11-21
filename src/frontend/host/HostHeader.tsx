@@ -239,7 +239,7 @@ export function HostHeader({
                   }
                   title={t("hostLayout.newSession", { name: entry.label })}
                   aria-label={t("hostLayout.newSession", { name: entry.label })}
-                  className="size-5 flex items-center justify-center opacity-0 group-hover:opacity-100 hover:text-foreground"
+                  className="size-5 hidden group-hover:flex items-center justify-center hover:text-foreground"
                 >
                   <Plus className="size-3" />
                 </button>
@@ -251,8 +251,8 @@ export function HostHeader({
                   title={t("hostLayout.closeTab", { name: entry.label })}
                   aria-label={t("hostLayout.closeTab", { name: entry.label })}
                   className={cn(
-                    "size-5 mr-0.5 flex items-center justify-center hover:text-foreground",
-                    active ? "opacity-70" : "opacity-0 group-hover:opacity-70",
+                    "size-5 mr-0.5 items-center justify-center opacity-70 hover:text-foreground",
+                    active ? "flex" : "hidden group-hover:flex",
                   )}
                 >
                   <X className="size-3" />
