@@ -6,6 +6,12 @@
 
 <p>A host first Termix layout with a tree of hosts and every tool as a tab on the selected host</p>
 
+<!-- VIDEO:START -->
+
+<a href="https://www.youtube.com/watch?v=tdA2ECT6_Dk"><img src="https://img.shields.io/badge/Watch_the_demo-f59145?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the demo on YouTube" /></a>
+
+<!-- VIDEO:END -->
+
 </div>
 
 <br />
