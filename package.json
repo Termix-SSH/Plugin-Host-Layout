@@ -20,7 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.2",
     "@commitlint/config-conventional": "^21.2.0",
-    "@termix-ssh/plugin-sdk": "^2.6.0",
+    "@termix-ssh/plugin-sdk": "^2.11.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.10",
@@ -40,7 +40,7 @@
     "vitest": "^5.1.0"
   },
   "peerDependencies": {
-    "@termix-ssh/plugin-sdk": "^2.6.0",
+    "@termix-ssh/plugin-sdk": "^2.11.0",
     "express": "^5.2.1",
     "react": "^19.2.8"
   },
